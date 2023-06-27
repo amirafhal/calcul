@@ -1,65 +1,69 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-#calcul {
-    border: 1px solid black;
-    width: 500px;
-    padding: 35px;
-}
-
-span {
-    display: inline-block;
-    border: 1px solid gray;
-    padding: 30px 40px;
-    text-align: center;
-    font-size: 26px;
-    max-width: 60px;
-    cursor: pointer;
-}
-
-span:hover {
-    color: rgb(203, 35, 147);
-    font-size: 30px;
-}
-
-#resultat {
-    text-align: right;
-    border: 2px solid;
-    background-color: black;
-    color: white;
-    padding: 15px;
-    font-size: 26px;
-    width: 400px;
-    border-right-width: 58px;
-}
-
-#numbers {
-    display: grid;
-    grid: 'header header header header' 'main main main right';
-    margin-right: 10px;
-}
-
-#num {
-    grid-area: main;
-    background-color: white;
-}
-
-#operators {
-    grid-area: header;
-}
-
-#equal {
-    grid-area: right;
-    margin-left: -105px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right-width: 9px;
-}
-
-#container {
-    width: 400px;
-}
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: oldlace;
+  }
+  
+  #calcul {
+      /*border: 1px solid black;
+       width: 750px;*/
+      padding: 35px;
+      margin-left: 1px auto;
+  }
+  
+  span {
+      display: inline-block;
+      border: 2.9px solid gray;
+      padding: 15px 45px;
+      text-align: center;
+      font-size: 30px;
+      max-width: 50px;
+      cursor: pointer;
+      background-color: khaki;
+      margin-right: -1px;
+  }
+  
+  span:hover {
+      color: rgb(203, 35, 147);
+      font-size: 30px;
+  }
+  
+  #resultat {
+      text-align: right;
+      border: 3px;
+      background-color: black;
+      color: white;
+      padding: 15px;
+      font-size: 30px;
+      width: 388px;
+  }
+  
+  #numbers {
+      display: grid;
+      grid: 'header header header header' 'main main main right';
+      margin-right: 15px;
+  }
+  
+  #num {
+      grid-area: main;
+      background-color: white;
+      margin-right: 49px;
+  }
+  
+  #operators {
+      grid-area: header;
+  }
+  
+  #equal {
+      grid-area: right;
+      margin-left: -45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(253, 167, 8);
+  }
+  
+  #container {
+      width: 400px;
+  }
